@@ -20,3 +20,8 @@ console.log(friendslist);
 
 
 }
+
+function Clear() {
+
+window.location.reload();
+}

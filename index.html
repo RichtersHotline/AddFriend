@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Add a Friend</title>
+    <link rel="stylesheet" href="Style/style.css">
     
 </head>
 <body>
 
+    <h1>Add a friend</h1>
+    <div class="container">
 <form>
+    <div class="FormCon">
     <label>First Name</label>
 <input type="text" id="Fname"></input>
 <label>Second Name</label>
@@ -17,10 +20,10 @@
 <input type="text" id="Sname"></input>
 
 <button type="button" id="AddButton" onclick="addfriend()">Add Friend</button>
-
-
+<button type="button" id="ClearButton" onclick="Clear()">Clear</button>
+    </div>
     </form>
-
+</div>
 
     <script src="./Script/code.js">
 
